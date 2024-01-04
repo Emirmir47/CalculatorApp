@@ -65,6 +65,8 @@ namespace GitExercise
 
             Console.WriteLine("Pres any key to close the app...");
             Console.ReadKey(true);
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey(intercept: true);
         }
     }
 }
